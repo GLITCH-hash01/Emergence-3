@@ -1,5 +1,5 @@
 import React from "react";
-import {ReactTyped as Typed} from "react-typed";
+// import {ReactTyped as Typed} from "react-typed";
 import Button from "../../Components/Button/Button";
 
 const Hero = () => {

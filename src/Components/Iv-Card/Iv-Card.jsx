@@ -11,7 +11,7 @@ function IvCard(props) {
     };
     return (
         <div className="w-[80vw] h-max mt-36 max-[650px]:w-[85vw] max-[650px]:mt-14 relative">
-            <img src={props.img}/>
+            <img src={props.img} alt={props.title} />
             <div style={gradientCSS}></div>
             <div className="absolute bottom-0 right-0 m-12 text-right  text-white max-[650px]:m-5">
                 <h2 className="font-bold text-5xl max-[650px]:text-xl ">{props.title} <br /> {props.title2}</h2>
