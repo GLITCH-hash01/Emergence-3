@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
-import Typed from "react-typed";
+import {ReactTyped as Typed} from "react-typed";
+
 
 const Timer = () => {
   const [countDownTime, setCountDownTime] = useState({
@@ -65,7 +66,7 @@ const Timer = () => {
           />
         </span>
         <div className="flex justify-center gap-3 sm:gap-8">
-          <div className="flex flex-col gap-5 relative">
+          <div className="relative flex flex-col gap-5">
             <div className="h-12 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#f7f7f7] rounded-lg">
               <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#fff]"></div>
               <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#000]">
@@ -78,7 +79,7 @@ const Timer = () => {
             </span>
           </div>
           <h1 className="text-[7.5vw]">:</h1>
-          <div className="flex flex-col gap-5 relative">
+          <div className="relative flex flex-col gap-5">
             <div className="h-12 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#f7f7f7] rounded-lg">
               <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#fff]"></div>
               <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#000]">
@@ -91,7 +92,7 @@ const Timer = () => {
             </span>
           </div>
           <h1 className="text-[7.5vw]">:</h1>
-          <div className="flex flex-col gap-5 relative">
+          <div className="relative flex flex-col gap-5">
             <div className="h-12 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#f7f7f7] rounded-lg">
               <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#fff]"></div>
               <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#000]">
@@ -104,7 +105,7 @@ const Timer = () => {
             </span>
           </div>
           <h1 className="text-[7.5vw]">:</h1>
-          <div className="flex flex-col gap-5 relative">
+          <div className="relative flex flex-col gap-5">
             <div className="h-12 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#f7f7f7] rounded-lg">
               <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#fff]"></div>
               <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#000]">

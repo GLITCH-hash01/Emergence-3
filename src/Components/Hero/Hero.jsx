@@ -1,18 +1,18 @@
 import React from "react";
-import Typed from "react-typed";
+import {ReactTyped as Typed} from "react-typed";
 import Button from "../../Components/Button/Button";
 
 const Hero = () => {
   return (
-    <div className="text-white p-5">
+    <div className="p-5 text-white">
       <div className="max-w-[800px] mt-[-20px] w-full h-[105vh] max-[450px]:h-[70vh] mx-auto text-center flex flex-col justify-center p-3 max-[500px]:mt-[20vh]">
-        <p className="text-deep-orange font-bold p">
+        <p className="font-bold text-deep-orange p">
           IEEE STUDENT BRANCH CEC
         </p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl mt-[-20px] flex justify-center font-bold max-[500px]:text-4xl" data-aos="fade-in" data-aos-duration="2500">
           <img src="./Logo.png" alt="" className="h-[20vh] max-[500px]:h-fit max-[650px]:my-8" />
         </h1>
-        {/* <div className="flex justify-center items-center">
+        {/* <div className="flex items-center justify-center">
           <p className="md:text-2xl sm:text-sm max-[500px]:text-base text-xl font-bold py-4">
             Convergence of
           </p>

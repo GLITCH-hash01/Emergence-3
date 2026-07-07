@@ -6,7 +6,7 @@ import Home from "./Pages/Home/Home";
 import Workshops from "./Pages/Workshops/Workshops";
 import { useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader";
-import Typed from "react-typed";
+import {ReactTyped as Typed} from "react-typed";
 import Iv from "./Pages/Iv/Iv";
 
 import AOS from "aos";
@@ -23,7 +23,7 @@ function App() {
     }, 10000);
   }, []);
   return (
-    <div className="App overflow-x-hidden">
+    <div className="overflow-x-hidden App">
       {!loading ? (
         <div>
           <Appbar />
