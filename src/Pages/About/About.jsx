@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Timer from '../../Components/Timer/Timer';
 import './About.css';
 
 function About() {
-  const [showDiv1, setShowDiv1] = useState(true);
-  const [showDiv2, setShowDiv2] = useState(false);
+  // const [showDiv1, setShowDiv1] = useState(true);
+  // const [showDiv2, setShowDiv2] = useState(false);
 
-  const toggleDiv = () => {
-    setShowDiv1(!showDiv1);
-    setShowDiv2(!showDiv2);
-  };
+  // const toggleDiv = () => {
+  //   setShowDiv1(!showDiv1);
+  //   setShowDiv2(!showDiv2);
+  // };
 
   return (
     <div className='About font-montserrat'>
       <Timer />
       <div id='About'></div>
       <div className='ml-24 my-36 max-[650px]:my-24 max-[650px]:ml-12'>
-        <h1 className='font-bold text-4xl tracking-wide mb-10' data-aos="fade-up" data-aos-duration="1000">ABOUT IAS</h1>
+        <h1 className='mb-10 text-4xl font-bold tracking-wide' data-aos="fade-up" data-aos-duration="1000">ABOUT IAS</h1>
         <div className='flex mr-28 max-[650px]:flex-col  max-[650px]:mr-12' >
           <img src="./Rectangle.png" data-aos="fade-right" data-aos-duration="1000" alt="" className=' h-[40vh] mr-10 max-[650px]:h-fit max-[650px]:w-full max-[650px]:mb-10' />
-          <div className='text-justify text-lg' data-aos="fade-left" data-aos-duration="1000">
+          <div className='text-lg text-justify' data-aos="fade-left" data-aos-duration="1000">
             IEEE INDUSTRIAL APPLICATION SOCIETY, College Of Engineering Chengannur is a
             prestigious student branch chapter functioning for nearly 6 years in CEC. IEEE IAS SBC
             CEC has gained a reputation for its consistent achievements and is recognized as a source
