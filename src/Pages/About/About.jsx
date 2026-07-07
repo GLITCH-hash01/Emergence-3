@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Timer from '../../Components/Timer/Timer';
 import './About.css';
 
 function About() {
-  // const [showDiv1, setShowDiv1] = useState(true);
-  // const [showDiv2, setShowDiv2] = useState(false);
+  const [showDiv1, setShowDiv1] = useState(true);
+  const [showDiv2, setShowDiv2] = useState(false);
 
   // const toggleDiv = () => {
   //   setShowDiv1(!showDiv1);
